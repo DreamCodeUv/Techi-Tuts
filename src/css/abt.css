@@ -1,0 +1,61 @@
+
+/* setting About Page */
+.c-main {
+    background-color: black;
+    min-height: 86vh;
+}
+.abt-page {
+    min-height: 50vh;
+    background-image: url('../assets/bg-images/abt/abt1.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.up-txt {
+    font-size: 20px;
+}
+.logo-con {
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 10rem;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* height: 2rem; */
+    align-items: center;
+}
+span.con-icon {
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:580px){
+    .contact{
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+    span.con-icon {
+        margin-left: 3rem;
+    }
+}
+@media(max-width:400px){
+    .up-txt {
+        font-size: 15px;
+    }
+    .logo-con {
+        height: 16rem;
+        overflow: hidden;
+        border-radius: 10rem;
+    }
+    span.con-icon {
+        margin-left: 1 rem;
+    }
+}

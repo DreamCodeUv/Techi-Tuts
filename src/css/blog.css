@@ -1,0 +1,78 @@
+/* setting up Blogs Page */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.blogs-pg{
+    min-height: 50vh;
+    color: white;
+    background-color: #2a2242;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.head {
+    padding-left: 1rem;
+}
+h3.bl-art {
+    font-size: 29px;
+}
+.container {
+    width: 70%;
+    margin-top: 1rem;
+    background-color: #4d4e59;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 6px;
+}
+h1.title {
+    font-size: 23px;
+    margin-bottom: .5rem;
+}
+.auther {
+    display: flex;
+    align-items: center;
+}
+img.auth-img {
+    height: 2rem;
+    border-radius: 10rem;
+}
+h4.auth-name {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.time {
+    font-weight: lighter;
+}
+.abt-blog {
+    margin-top: 1rem;
+    font-size: 17px;
+}
+.read-btn {
+    margin-top: 1rem;
+}
+span.rmore {
+    background: #cf08b8;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+span.rmore:hover{
+    background: #c03cca;
+}
+
+
+
+@media(max-width:800px){
+    .container {
+        width: 80%;
+    }    
+}
+@media(max-width:500px){
+    .time{
+        display: none;
+    }
+}

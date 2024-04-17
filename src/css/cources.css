@@ -1,0 +1,67 @@
+.cr-page {
+    min-height: 50vh;
+    background-image: url('../assets/bg-images/tony.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p.mc {
+    color: #f9ff00;
+    font-size: 19px;
+    margin-top: 6px;
+}
+
+h3.crs-ref {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+.cno-of {
+    height: 6rem;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: unset;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+h4.addi {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    color: #ff6400;
+    margin-top: 1.5rem;
+
+}
+
+@media (max-width:780px){
+    .cr-page {
+        padding-top: 5rem;
+    }
+    h1.crs-head {
+        font-size: 25px;
+    }
+}
+@media (max-width:580px){
+    h1.crs-head {
+        /* font-size: 20px; */
+        display: flex;
+        text-align: center;
+    }
+    h3.crs-ref {
+        /* font-size: 20px; */
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width:580px){
+    h1.crs-head {
+        /* font-size: 15px; */
+    }
+}

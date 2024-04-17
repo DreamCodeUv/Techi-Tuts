@@ -1,0 +1,122 @@
+*{
+
+}
+html{
+    overflow-x: hidden;
+}
+main{
+    min-height: 80vh;
+    overflow-x: hidden;
+}
+.top-intro-box {
+    min-height: 40vh;
+    background-image: url('../assets/bg-images/bg18.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: ur; */
+}
+.intro-txt-top {
+    color: white;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* Cources Box */
+.top-cources {
+    display: flex;
+    /* grid-auto-flow: column; */
+    flex-wrap: wrap;
+    /* grid-template-columns: 24rem 24rem 24rem; */
+    /* grid-auto-rows: auto auto auto; */
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.cource {
+    width: 23rem;
+    height: 35rem;
+    /* background: aliceblue; */
+    background-color: #345af78a;
+    margin: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.t-cnt {
+    height: 40%;
+    width: 100%;
+}
+.c-thumbill {
+    height: 100%;
+    width: 100%;
+    /* aspect-ratio: 5 / 63; */
+}
+.b-cnt {
+    padding: 7px;
+}
+p.free-pd {
+    color: #ff9b9b;
+}
+h2.course-name {
+    font-size: 19px;
+    margin-top: .5rem;
+    color: white;
+}
+h4.summ {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    color: white;
+    text-overflow: ellipsis;
+    max-height: 10rem;
+}
+span.start-wt {
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 6px;
+    background-color: #cd11ff;
+    color: white;
+    border: indianred;
+    cursor: pointer;
+}
+span.start-wt:hover{
+    background-color: #5d0076;
+    color: aliceblue;
+}
+
+/* headings */
+
+.exp-sug {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2.prompt {
+    color: white;
+}
+span.clk-bt {
+    color: cyan;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+   .sug-right{
+    display: none;
+   }
+   .exp-sug {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+}
+@media (max-width: 450px) {
+    h2.prompt {
+        color: white;
+        font-size: 20px;
+    }
+}
